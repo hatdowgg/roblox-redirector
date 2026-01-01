@@ -63,7 +63,6 @@
             const mobileMessage = document.getElementById("mobile-message");
             const loadingSpinner = document.getElementById("loading-spinner");
             const errorMessage = document.getElementById("error-message");
-            const teleportLink = document.getElementById("teleport-link");
             const discordLink = document.getElementById("discord-link");
             const tenorGif = document.getElementById("tenor-gif");
 
@@ -78,7 +77,6 @@
             if (placeId && gameInstanceId) {
                 const robloxMobileLink = `robloxmobile://placeID=${placeId}&gameInstanceId=${gameInstanceId}`;
                 const robloxPCLink = `roblox://placeID=${placeId}&gameInstanceId=${gameInstanceId}`;
-                teleportLink.href = `https://www.roblox.com/games/start?placeId=100579123867721&launchData=[${placeId}]/[${gameInstanceId}]`;
                 if (/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
                     pcMessage.style.display = "none";
                     mobileMessage.style.display = "block";
@@ -125,16 +123,15 @@
     </div>
   
      <div id="pc-message" style="display: none;">
-        <p>Redirecting to Roblox... If hindi ka na-redirect sa Roblox, refresh mo lang 'tong site! <a id="teleport-link" href="#">If ayaw pa rin kahit nirefresh na itong site, pindutin mo ito!</a></p>
+        <p>Redirecting to Roblox... If hindi ka na-redirect sa Roblox, refresh mo lang 'tong site!</p>
     </div>
   
    <div id="discord-link" style="display: none;">
     <p>If you have any problems or questions, feel free to reach out!</p>
     <ul>
-        <li>👤 Discord: @ky_ee (User ID: 873579339655024650)</li>
-        <li>🌐 Server: <a href="https://discord.gg/C6yEH25avg" target="_blank">discord.gg/C6yEH25avg</a></li>
+        <li>👤 Discord: @hatdowgg.</li>
+        <li>🌐 Server: <a href="https://discord.gg/EqUYt2SaBz" target="_blank">Discord Server</a></li>
     </ul>
 </div>
-  
 </body>
 </html>
